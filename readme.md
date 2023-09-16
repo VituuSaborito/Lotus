@@ -19,8 +19,8 @@ Desenvolver uma chat-bot em Java Desktop para um cliente que necessita de uma fe
 ---
 
 ## 🖥 Tecnologias Utilizadas
-+ Figma - Utilizado para o desenvolvimento do protótipo.
-+ Java - Utilizado para programar o desenvolvimento do bot.
++ Eclipse - Utilizado como IDE para o java.
++ Java - Utilizado para programar o desenvolvimento do projeto.
 
 ---
 
