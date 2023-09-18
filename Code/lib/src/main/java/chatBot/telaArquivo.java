@@ -1,7 +1,6 @@
 package chatBot;
 
-//o bot não ingere documentos fora desse package
-//o str1 recebe o conteúdo das linhas do texto, mas não escreve no arquivo .txt
+//o bot só ingere documentos após a importação deles
 
 //import java.awt.GridBagLayout;
 //import java.awt.event.ItemListener;
@@ -86,39 +85,44 @@ public class telaArquivo {
 			    int i = chooser.showOpenDialog(tela);
 			    if(i == JFileChooser.APPROVE_OPTION) {
 			       File file = chooser.getSelectedFile();
-			       String filepath = file.getPath();
+			       //String filepath = file.getPath();
 			       
-			       DocumentIngestor.nome = chooser.getName(file);
+			       
 			    	   
 			       try {
-			    	   File arquivo = new File("C:\\Users\\gokuk\\eclipse-workspace\\chatBot\\lib\\src\\main\\java\\chatBot\\" + DocumentIngestor.nome);
-			    	   
-			    	   if(arquivo.exists()) {
-			    		   JOptionPane.showMessageDialog(null, "Um arquivo com o mesmo nome já foi carregado. Por favor escolha outro nome para o arquivo.");
-			    	   } else {
-			    		   arquivo.createNewFile();
-			    		   FileWriter fw = new FileWriter(arquivo, true);
-			    		   BufferedWriter bw = new BufferedWriter(fw);
-			    		   BufferedReader buferredReader = new BufferedReader(new FileReader(filepath));
-			    		   String str1 = "";
-			    		   while (buferredReader.ready()) {
+			    	   //File arquivo = new File("C:\\Users\\gokuk\\eclipse-workspace\\chatBot\\lib\\src\\main\\java\\chatBot\\" + DocumentIngestor.nome);
+			    	   //if(arquivo.exists()) {
+			    		//   JOptionPane.showMessageDialog(null, "Um arquivo com o mesmo nome já foi carregado. Por favor escolha outro nome para o arquivo.");
+			    	   //} else {
+			    		   file.renameTo(new File("C:\\Users\\gokuk\\eclipse-workspace\\chatBot\\lib\\src\\main\\java\\chatBot\\", file.getName()));
+			    		   DocumentIngestor.nome = chooser.getName(file);
+			    		   //arquivo.createNewFile();
+			    		   //FileWriter fw = new FileWriter(arquivo, true);
+			    		   //BufferedWriter bw = new BufferedWriter(fw);
+			    		   //BufferedReader buferredReader = new BufferedReader(new FileReader(filepath));
+			    		   //String str1 = "";
+			    		   //while (buferredReader.ready()) {
 			    			   //str2 += str1 + "\n";
-			    			   str1 = buferredReader.readLine();
-			    			   bw.write(str1);
-			    			   bw.newLine();
-			    			   System.out.println(str1);
-			    		   }
+			    			   //str1 = buferredReader.readLine();
+			    			   //bw.write(str1);
+			    			   //bw.newLine();
+			    			   //System.out.println(str1);
+			    		   //}
 			    	   
 			    		   JOptionPane.showMessageDialog(null, "Arquivo Carregado com Sucesso!");
-			    		   JOptionPane.showMessageDialog(null, arquivo.toURI());
-			    		   DocumentIngestor.main(args);
-			    		   buferredReader.close();
-			    		   bw.close();
-			    		   fw.close();
-			    	   }
-			       } catch (Exception ex) {
+			    		   //JOptionPane.showMessageDialog(null, arquivo.toURI());
+			    		   
+			    		   //DocumentIngestor.main(args); é pra abrir outra tela
+			    		   
+			    		   tela.dispose();
+			    		   //telaResposta.main(args);
+			    		   
+			    		   //buferredReader.close();
+			    		   //bw.close();
+			    		   //fw.close();
+			    	   } catch (Exception ex) {
 			    	   ex.printStackTrace();   
-			    	   }			    	   			    	   
+			    	   	}			    	   			    	   
 			    }
 			}
 		};
