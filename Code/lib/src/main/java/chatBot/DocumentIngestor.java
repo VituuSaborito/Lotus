@@ -20,8 +20,9 @@ import static dev.langchain4j.data.document.FileSystemDocumentLoader.loadDocumen
 import static java.time.Duration.ofSeconds;
 
 public class DocumentIngestor {
-	public static String nome = "";
-	public static String pergunta = "Where does Charlie lives?";
+	public static String nome = "text.txt";
+	public static String pergunta = "";
+	public static String resposta;
 	//HuggingFace API
     public static final String HF_API_KEY = "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";
 	
@@ -58,6 +59,7 @@ public class DocumentIngestor {
         
         //predict
         String answer = chain.execute(pergunta);
+        resposta = answer;
         System.out.println(answer);
         
 	}
