@@ -13,15 +13,25 @@ import javax.swing.JRadioButton;
 import javax.swing.JFileChooser;
 import javax.swing.filechooser.FileNameExtensionFilter;
 import javax.swing.ButtonGroup;
+
 import java.awt.event.*;
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
 import java.io.FileWriter;
 
-public class telaArquivo {
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
+
+public class telaArquivo {
+	static String username = System.getProperty("user.name");
+	public static int contador = 0;
+	public static String caminho;
+	
 	public static void main(String[] args) {
 		
 		JFrame tela = new JFrame("Inserção de Arquivo");
@@ -56,12 +66,16 @@ public class telaArquivo {
 		JButton importar = new JButton("Inserir o arquivo");
 		importar.setBounds(145, 375, 200, 30);
 		
+		JButton refresh = new JButton("Fazer a pergunta");
+		refresh.setBounds(145, 450, 200, 30);
+		
 		tela.add(title);
 		tela.add(alternativa1);
 		tela.add(alternativa2);
 		tela.add(alternativa3);
 		tela.add(alternativa4);
 		tela.add(importar);
+		tela.add(refresh);
 		
 		tela.setVisible(true);
 		
@@ -85,8 +99,8 @@ public class telaArquivo {
 			    int i = chooser.showOpenDialog(tela);
 			    if(i == JFileChooser.APPROVE_OPTION) {
 			       File file = chooser.getSelectedFile();
-			       //String filepath = file.getPath();
-			       
+			       String filepath = file.getPath();
+			       caminho = filepath;
 			       
 			    	   
 			       try {
@@ -94,7 +108,7 @@ public class telaArquivo {
 			    	   //if(arquivo.exists()) {
 			    		//   JOptionPane.showMessageDialog(null, "Um arquivo com o mesmo nome já foi carregado. Por favor escolha outro nome para o arquivo.");
 			    	   //} else {
-			    		   file.renameTo(new File("C:\\Users\\gokuk\\eclipse-workspace\\chatBot\\lib\\src\\main\\java\\chatBot\\", file.getName()));
+			    		   file.renameTo(new File("C:\\Users\\" + username + "\\eclipse-workspace\\DocReader\\lib\\src\\main\\java\\chatBot", file.getName()));
 			    		   DocumentIngestor.nome = chooser.getName(file);
 			    		   //arquivo.createNewFile();
 			    		   //FileWriter fw = new FileWriter(arquivo, true);
@@ -114,7 +128,8 @@ public class telaArquivo {
 			    		   
 			    		   //DocumentIngestor.main(args); é pra abrir outra tela
 			    		   
-			    		   tela.dispose();
+			    		   //tela.dispose();
+			    		   //DocumentIngestor.main(args);
 			    		   //telaResposta.main(args);
 			    		   
 			    		   //buferredReader.close();
@@ -127,7 +142,28 @@ public class telaArquivo {
 			}
 		};
 		
+		/*ActionListener recarrega = new ActionListener(){
+			public void actionPerformed(ActionEvent evento) {
+				//ScheduledExecutorService refreshPagina = Executors.newSingleThreadScheduledExecutor();
+				Runnable run = new Runnable() {
+					@Override
+					public void run() {
+						call();
+					}
+				};
+				
+				//refreshPagina.scheduleAtFixedRate(run, 0, 5, TimeUnit.SECONDS);
+				tela.dispose();
+				telaResposta.main(args);
+			}
+			public static void call() {
+				contador++;
+				System.out.println(contador);
+			}
+		};*/
+		
 		importar.addActionListener(abreArquivo);
+		//refresh.addActionListener(recarrega);
 	}
 
 }
