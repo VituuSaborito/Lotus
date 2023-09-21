@@ -29,8 +29,10 @@ import java.util.concurrent.TimeUnit;
 
 public class telaArquivo {
 	static String username = System.getProperty("user.name");
-	public static int contador = 0;
+	static String nome;
+	
 	public static String caminho;
+	//public static int contador = 0;
 	
 	public static void main(String[] args) {
 		
@@ -108,8 +110,9 @@ public class telaArquivo {
 			    	   //if(arquivo.exists()) {
 			    		//   JOptionPane.showMessageDialog(null, "Um arquivo com o mesmo nome já foi carregado. Por favor escolha outro nome para o arquivo.");
 			    	   //} else {
-			    		   file.renameTo(new File("C:\\Users\\" + username + "\\eclipse-workspace\\DocReader\\lib\\src\\main\\java\\chatBot", file.getName()));
-			    		   DocumentIngestor.nome = chooser.getName(file);
+			    		   file.renameTo(new File("C:\\Users\\" + username + "\\eclipse-workspace\\chatBot\\lib\\src\\main\\java\\chatBot", file.getName()));
+			    		   nome = chooser.getName(file);
+			    		   System.out.println(nome);
 			    		   //arquivo.createNewFile();
 			    		   //FileWriter fw = new FileWriter(arquivo, true);
 			    		   //BufferedWriter bw = new BufferedWriter(fw);
@@ -128,9 +131,9 @@ public class telaArquivo {
 			    		   
 			    		   //DocumentIngestor.main(args); é pra abrir outra tela
 			    		   
-			    		   //tela.dispose();
+			    		   tela.dispose();
 			    		   //DocumentIngestor.main(args);
-			    		   //telaResposta.main(args);
+			    		   telaResposta.main(args);
 			    		   
 			    		   //buferredReader.close();
 			    		   //bw.close();

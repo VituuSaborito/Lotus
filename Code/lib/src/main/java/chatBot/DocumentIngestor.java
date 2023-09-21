@@ -20,15 +20,16 @@ import static dev.langchain4j.data.document.FileSystemDocumentLoader.loadDocumen
 import static java.time.Duration.ofSeconds;
 
 public class DocumentIngestor {
-	public static String nome = telaArquivo.caminho;
+	//public static String nome;
 	public static String pergunta = "Where does Charlie lives";
 	public static String resposta;
 	//HuggingFace API
     public static final String HF_API_KEY = "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";
 	
 	public static void main(String[] args) throws Exception {
-        Document document = loadDocument(toPath(nome));
-        
+		System.out.println(telaArquivo.nome);
+        //Document document = loadDocument(toPath(telaArquivo.nome));
+        Document document = loadDocument(toPath(telaArquivo.nome));
         //choosing an embedding model
         EmbeddingModel embeddingModel = HuggingFaceEmbeddingModel.builder()
                 .accessToken(HF_API_KEY)
@@ -59,6 +60,9 @@ public class DocumentIngestor {
         
         //predict
         String answer = chain.execute(pergunta);
+        answer = answer.replace("&#10","");
+        answer = answer.replace(";","");
+        answer = answer.replace("...", "");
         resposta = answer;
         System.out.println(answer);
         

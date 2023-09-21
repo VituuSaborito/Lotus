@@ -12,6 +12,8 @@ import javax.swing.JButton;
 
 public class telaResposta {
 
+	static String papo = "";
+	
 	public static void main(String[] args) {
 		JFrame tela = new JFrame("Resposta");
 		tela.setSize(500,700);
@@ -33,7 +35,6 @@ public class telaResposta {
 		resposta.setBackground(Color.white);
 		
 		JLabel txtResposta = new JLabel();
-		txtResposta.setText("TEXTO");
 		txtResposta.setBounds(10,10,430,540);
 		
 		JButton submit = new JButton("Enviar");
@@ -54,10 +55,13 @@ public class telaResposta {
 			public void actionPerformed(ActionEvent evt) {
 				DocumentIngestor.pergunta = mensagem.getText();
 				try {
+					System.out.println(telaArquivo.nome);
 					DocumentIngestor.main(args);
+					mensagem.setText("");
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
+				//papo += DocumentIngestor.resposta + "\n";
 				txtResposta.setText(DocumentIngestor.resposta);
 			}
 		};
