@@ -1,5 +1,14 @@
 ## Lotus
 ---
+<br id="topo">
+<p align="center">
+    <a href="#sobre">Sobre</a>  |  
+    <a href="#backlogs">Backlogs & User Stories</a>  |  
+    <a href="#prototipo">Protótipo & Documentação</a>  |  
+    <a href="#tecnologias">Tecnologias</a>  |  
+    <a href="#equipe">Equipe</a>
+</p>
+
 ## 🎯 Objetivo do projeto
 Este projeto é um projeto acadêmico, que tem como objetivo criar um chat-bot que responda questões com embasamento em um arquivo pré disponibilizado, utilizando a linguagem java. 
 
@@ -8,9 +17,14 @@ Este projeto é um projeto acadêmico, que tem como objetivo criar um chat-bot q
 ## 📌 Visão do produto
 O resultado final do produto que a equipe Lotus tem em mente será um chatbot em Java Desktop que seja capaz de sanar dúvidas, de qualquer área com a inserção de documentos, agilizando a busca de informações em documentos extensos e auxiliando nas atividades de uma empresa.
 
-## 🖥 Tecnologias Utilizadas
-+ Eclipse - Utilizado como IDE para o Java.
-+ Java - Utilizado para programar o desenvolvimento do projeto.
+<span id="tecnologias">
+
+## 🛠️ Tecnologias
+
+As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na construção do projeto:
+
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
 
 ---
 
@@ -25,7 +39,9 @@ O resultado final do produto que a equipe Lotus tem em mente será um chatbot em
 
 ---
 
+→ [Voltar ao topo](#topo)
 
+<span id="equipe">
 
 ## 👨‍💻 Dev Team
 |Integrantes|Função|Github|LinkedIn|
