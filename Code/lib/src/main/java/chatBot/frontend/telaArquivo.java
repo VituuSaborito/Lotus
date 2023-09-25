@@ -1,4 +1,4 @@
-package chatBot;
+package frontend;
 
 //o bot só ingere documentos após a importação deles
 
@@ -29,7 +29,7 @@ import java.util.concurrent.TimeUnit;
 
 public class telaArquivo {
 	static String username = System.getProperty("user.name");
-	static String nome;
+	public static String nome;
 	
 	public static String caminho;
 	//public static int contador = 0;
@@ -119,13 +119,13 @@ public class telaArquivo {
 			    		   //BufferedReader buferredReader = new BufferedReader(new FileReader(filepath));
 			    		   //String str1 = "";
 			    		   //while (buferredReader.ready()) {
-			    			   //str2 += str1 + "\n";
 			    			   //str1 = buferredReader.readLine();
+			    		   		//str2 += str1 + "\n";
 			    			   //bw.write(str1);
 			    			   //bw.newLine();
 			    			   //System.out.println(str1);
 			    		   //}
-			    	   
+			    		   
 			    		   JOptionPane.showMessageDialog(null, "Arquivo Carregado com Sucesso!");
 			    		   //JOptionPane.showMessageDialog(null, arquivo.toURI());
 			    		   

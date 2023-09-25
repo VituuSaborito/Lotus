@@ -1,4 +1,4 @@
-package chatBot;
+package backend;
 
 //o bot não ingere documentos fora desse package
 import dev.langchain4j.data.document.Document;

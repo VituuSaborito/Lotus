@@ -1,4 +1,4 @@
-package chatBot;
+package frontend;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -53,16 +53,16 @@ public class telaResposta {
 		
 		ActionListener pergunta = new ActionListener() {
 			public void actionPerformed(ActionEvent evt) {
-				DocumentIngestor.pergunta = mensagem.getText();
+				backend.DocumentIngestor.pergunta = mensagem.getText();
 				try {
 					System.out.println(telaArquivo.nome);
-					DocumentIngestor.main(args);
+					backend.DocumentIngestor.main(args);
 					mensagem.setText("");
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
 				//papo += DocumentIngestor.resposta + "\n";
-				txtResposta.setText(DocumentIngestor.resposta);
+				txtResposta.setText(backend.DocumentIngestor.resposta);
 			}
 		};
 		submit.addActionListener(pergunta);

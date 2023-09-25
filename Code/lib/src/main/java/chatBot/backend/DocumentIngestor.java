@@ -1,4 +1,4 @@
-package chatBot;
+package backend;
 
 //o bot não ingere documentos fora desse package
 import dev.langchain4j.chain.ConversationalRetrievalChain;
@@ -12,6 +12,8 @@ import dev.langchain4j.retriever.EmbeddingStoreRetriever;
 import dev.langchain4j.store.embedding.EmbeddingStore;
 import dev.langchain4j.store.embedding.EmbeddingStoreIngestor;
 import dev.langchain4j.store.embedding.inmemory.InMemoryEmbeddingStore;
+import frontend.telaArquivo;
+
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.file.Path;
@@ -27,9 +29,9 @@ public class DocumentIngestor {
     public static final String HF_API_KEY = "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";
 	
 	public static void main(String[] args) throws Exception {
-		System.out.println(telaArquivo.nome);
+		System.out.println(frontend.telaArquivo.nome);
         //Document document = loadDocument(toPath(telaArquivo.nome));
-        Document document = loadDocument(toPath(telaArquivo.nome));
+        Document document = loadDocument(toPath(frontend.telaArquivo.nome));
         //choosing an embedding model
         EmbeddingModel embeddingModel = HuggingFaceEmbeddingModel.builder()
                 .accessToken(HF_API_KEY)
