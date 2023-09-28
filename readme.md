@@ -5,8 +5,7 @@
 <p align="center">
     <a href="#objetivos">Objetivos da sprint</a> &nbsp |&nbsp &nbsp
     <a href="#entregas">Entregas</a> &nbsp |&nbsp &nbsp
-    <a href="#metricas">Métricas do time</a> &nbsp |&nbsp &nbsp
-    <a href="#links">Links úteis</a>
+    <a href="#metricas">Métricas do time</a>
 </p>
 
 # 
@@ -22,11 +21,29 @@ Os objetivos da sprint foram:
 - **Interface para importação de arquivos:** Interface para importação de arquivos
 - **Interface para perguntas e respostas:** Interface para perguntas e respostas
 
+<span id="entregas">
+
 ## ✔️ Entregas
 
 Para esta entrega, utilizamos a metodologia Scrum, sendo alguns artefatos o Product Backlog contendo as User Stories, o Burndown Chart e as divisões da equipe, como o PO, o Scrum Master e o Dev Team.
 Para entender melhor sobre o produto que o cliente desejava, houve uma aula explicativa sobre os requisitos do projeto
 
 <div align="center">
-![Gif Sprint 1](./)
+    
+![Gif Sprint 1](./sprint1.gif)
 </div>
+
+→ [Voltar ao topo](#topo)
+
+<span id="metricas">
+
+## 📈 Métricas da equipe
+As tarefas da equipe foram divididas com os 6 integrantes, sendo elas a parte Backend e Frontend, onde os integrantes com as tarefas de Backend ficavam responsáveis por inserirem as funcionalidades nas interfaces gráficas criadas pelos integrantes que estavam responsáveis por criar as GUIs das páginas por meio de código.
+- O acompanhamento de atividades, de responsabilidade do Scrum Master, se encontra na imagem adiante, que contém o gráfico Burndown gerado pela equipe (onde o eixo X são os dias trabalhados na sprint e os valores do eixo Y representam as horas estimadas de esforço somadas), incluindo as atividades desenvolvidas e seus responsáveis.
+
+<div align="center">
+
+![Burndown](./burndown.jpeg)
+</div>
+  
+
