@@ -4,3 +4,6 @@
 [submodule "LotusFrontend"]
 	path = LotusFrontend
 	url = https://github.com/VituuSaborito/LotusFrontend
+[submodule "LotusDatabase"]
+	path = LotusDatabase
+	url = https://github.com/VituuSaborito/LotusDatabase
