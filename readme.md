@@ -20,4 +20,13 @@ Os objetivos da sprint foram:
 - **Importar arquivos:** Importar arquivos do computador para a pasta selecionada
 - **Perguntas e respostas:** Responder as perguntas feitas pelo usuário
 - **Interface para importação de arquivos:** Interface para importação de arquivos
-- **Interface para perguntas e respostas:**
+- **Interface para perguntas e respostas:** Interface para perguntas e respostas
+
+## ✔️ Entregas
+
+Para esta entrega, utilizamos a metodologia Scrum, sendo alguns artefatos o Product Backlog contendo as User Stories, o Burndown Chart e as divisões da equipe, como o PO, o Scrum Master e o Dev Team.
+Para entender melhor sobre o produto que o cliente desejava, houve uma aula explicativa sobre os requisitos do projeto
+
+<div align="center">
+![Gif Sprint 1](./)
+</div>
