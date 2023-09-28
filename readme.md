@@ -19,4 +19,5 @@ O projeto é uma produção de assistente virtual e ChatBot para Java Desktop qu
 Os objetivos da sprint foram:
 - **Importar arquivos:** Importar arquivos do computador para a pasta selecionada
 - **Perguntas e respostas:** Responder as perguntas feitas pelo usuário
-- **Interface para importação de arquivos:** 
+- **Interface para importação de arquivos:** Interface para importação de arquivos
+- **Interface para perguntas e respostas:**
