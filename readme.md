@@ -8,7 +8,7 @@
     <a href="#metricas">Métricas do time</a>
 </p>
 
-# 
+
 O projeto é uma produção de assistente virtual e ChatBot para Java Desktop que seja capaz de sanar dúvidas, de qualquer área com a inserção de documentos, agilizando a busca de informações em documentos extensos e auxiliando nas atividades de uma empresa. Tendo em mente o MVP, a 1º Sprint deu início com a produção da interface gráfica da tela de perguntas e respostas e da interface gráfica da tela de inserção de documentos, além da funcionalidade de ambos, sendo elas a inserção de documentos no programa e a leitura do mesmo e a funcionalidade de perguntas e respostas, onde o assistente responde as perguntas feitas pelo usuário em relação ao arquivo.
 
 <span id="objetivos">
@@ -43,7 +43,7 @@ As tarefas da equipe foram divididas com os 6 integrantes, sendo elas a parte Ba
 
 <div align="center">
 
-![Burndown](./burndown.jpeg)
+![Burndown](./burndown_sprint1.jpeg)
 </div>
   
-
+→ [Voltar ao topo](#topo)
