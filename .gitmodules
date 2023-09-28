@@ -1,6 +1,3 @@
 [submodule "Lotus_backend"]
 	path = Lotus_backend
 	url = https://github.com/VituuSaborito/Lotus_backend
-[submodule "Lotus_frontend"]
-	path = Lotus_frontend
-	url = https://github.com/VituuSaborito/Lotus_frontend
