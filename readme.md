@@ -62,7 +62,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 
 | Sprint | Data | Status | Registro |
 |:--:|:----------:|:----------------|:-------------------------------------------------:|
-| 1 | 24/09 | ✔️ Concluída | [Relatório 1](https://github.com/VituuSaborito/Lotus) |
+| 1 | 24/09 | ✔️ Concluída | [Relatório 1](https://github.com/VituuSaborito/Lotus/tree/Sprint-1) |
 | 2 | 15/10 | ⌚ Em andamento | [Relatório 2](https://github.com/VituuSaborito/Lotus) |
 | 3 | 05/11 | ⌚ Em andamento | [Relatório 3](https://github.com/VituuSaborito/Lotus) |
 | 4 | 26/11 | ⌚ Em andamento | [Relatório 4](https://github.com/VituuSaborito/Lotus) |
