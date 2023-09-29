@@ -38,7 +38,7 @@ Para entender melhor sobre o produto que o cliente desejava, houve uma aula expl
 <span id="metricas">
 
 ## 📈 Métricas da equipe
-As tarefas da equipe foram divididas com os 6 integrantes, sendo elas a parte Backend e Frontend, onde os integrantes com as tarefas de Backend ficavam responsáveis por inserirem as funcionalidades nas interfaces gráficas criadas pelos integrantes que estavam responsáveis por criar as GUIs das páginas por meio de código.
+As tarefas da equipe foram divididas entre Backend e Frontend para os integrantes, onde os que possuiam as tarefas de Backend ficavam responsáveis por inserirem as funcionalidades nas interfaces gráficas criadas pelos integrantes que estavam responsáveis por criar as GUIs das páginas por meio de código.
 - O acompanhamento de atividades, de responsabilidade do Scrum Master, se encontra na imagem adiante, que contém o gráfico Burndown gerado pela equipe (onde o eixo X são os dias trabalhados na sprint e os valores do eixo Y representam as horas estimadas de esforço somadas), incluindo as atividades desenvolvidas e seus responsáveis.
 
 <div align="center">
