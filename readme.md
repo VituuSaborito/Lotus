@@ -34,14 +34,14 @@ O resultado final do produto que a equipe Lotus tem em mente será um chatbot em
 |85|1|Interface gráfica para perguntas e respostas|Eu, como cliente, desejo ter uma interface agradável e de fácil utilização e entendimento ao conversar com o assistente.|
 |80|1|Product Backlog|Eu, como cliente, desejo ter uma lista ordenada de requisitos do projeto, para ter um panorama do que será entregue em cada sprint.|
 |80|1|Documentação no Github|Eu, como cliente, desejo ver a documentação do projeto na plataforma Github.|
-|75|2|Banco de Dados||
-|70|2|CRUD||
-|65|2|Implementação do Login de usuário||
-|60|2|Implementação do Registro de usuário||
-|55|2|Implementação da Consulta do Banco de Dados||
-|50|2|Interface gráfica para Login de usuário||
-|45|2|Interface gráfica para Registro de usuário||
-|40|2|Interface gráfica para Consulta no banco de dados||
+|75|2|Banco de Dados|Eu, como cliente, desejo possuir um banco de dados para armazenar os registros do programa.|
+|70|2|CRUD|Eu, como cliente, desejo criar, consultar, deletar e alterar o banco de dados.|
+|65|2|Implementação do Login de usuário|Eu, como cliente, desejo logar minha conta no programa.|
+|60|2|Implementação do Registro de usuário|Eu, como cliente, desejo me registrar ao entrar no programa.|
+|55|2|Implementação da Consulta do Banco de Dados|Eu, como cliente, desejo consultar os registros dos usuários no banco de dados.|
+|50|2|Interface gráfica para Login de usuário|Eu, como cliente, desejo ter uma interface agradável e de fácil utilização ao logar minha conta no programa.|
+|45|2|Interface gráfica para Registro de usuário|Eu, como cliente, desejo ter uma interface agradável e de fácil utilização ao me registrar.|
+|40|2|Interface gráfica para Consulta no banco de dados|Eu, como cliente, desejo ter uma interface agradável e de fácil utilização para consultar dados no banco de dados.|
 |35|3|Integração com BOT existente no Telegram||
 |30|3|Melhoria gráfica nas telas existentes||
 |25|4|TTS (Text-To-Speech)||
