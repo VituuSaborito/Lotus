@@ -17,6 +17,33 @@ Nesta segunda sprint, a equipe de voltou a produção com o banco de dados utili
 Os objetivos da sprint foram:
 - **Funcionalidade Registro:** Permite o usuário registrar sua conta no programa
 - **Funcionalidade Login:** Permite o usuário logar a sua conta já existente no programa
+- **CRUD do banco de dados:** Permite o usuário a funciona
 - **Interface Registro:** Interface para registro de usuário
 - **Interface Login:** Interface para login de usuário
 - **Interface Menu**: Interface para escolha de telas 
+- ??????
+
+<span id="entregas">
+
+## ✔️ Entregas
+
+Para esta entrega, foi utilizado os mesmos métodos da entrega anterior
+
+### Funcionalidade Registro
+<details>
+    <summary>Clique aqui para ver detalhes sobre o desenvolvimento desta funcionalidade</summary>
+    
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+  
