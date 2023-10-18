@@ -4,7 +4,6 @@
 <p align="center">
     <a href="#sobre">Sobre</a>  |  
     <a href="#backlog">Backlog & User Stories</a>  |  
-    <a href="#prototipo">Protótipo & Documentação</a>  |  
     <a href="#tecnologias">Tecnologias</a>  |  
     <a href="#equipe">Equipe</a>
 </p>
@@ -42,9 +41,10 @@ O resultado final do produto que a equipe Lotus tem em mente será um chatbot em
 |50|2|Interface gráfica para Login de usuário|Eu, como cliente, desejo ter uma interface agradável e de fácil utilização ao logar minha conta no programa.|
 |45|2|Interface gráfica para Registro de usuário|Eu, como cliente, desejo ter uma interface agradável e de fácil utilização ao me registrar.|
 |40|2|Interface gráfica para Consulta no banco de dados|Eu, como cliente, desejo ter uma interface agradável e de fácil utilização para consultar dados no banco de dados.|
-|35|3|Integração com BOT existente no Telegram||
-|30|3|Melhoria gráfica nas telas existentes||
-|25|4|TTS (Text-To-Speech)||
+|35|3|Manutenção do ChatBot|Eu, como cliente, desejo que o ChatBot leia documentos com a extensão .pdf e .docx|
+|30|3|Integração com BOT existente no Telegram|Eu, como cliente, desejo ter o ChatBot no Telegram|
+|25|3|Melhoria gráfica nas telas existentes|Eu, como cliente, desejo visualizar as telas de maneira mais confortável|
+|20|4|TTS (Text-To-Speech)|Eu, como usuário, desejo ativar uma opção que me permite ouvir o ChatBot|
 
 </div>
 <span id="tecnologias">
@@ -63,7 +63,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 | Sprint | Data | Status | Registro |
 |:--:|:----------:|:----------------|:-------------------------------------------------:|
 | 1 | 24/09 | ✔️ Concluída | [Relatório 1](https://github.com/VituuSaborito/Lotus/tree/Sprint-1) |
-| 2 | 15/10 | ⌚ Em andamento | [Relatório 2](https://github.com/VituuSaborito/Lotus) |
+| 2 | 15/10 | ✔️ Concluída | [Relatório 2](https://github.com/VituuSaborito/Lotus/tree/Sprint-2) |
 | 3 | 05/11 | ⌚ Em andamento | [Relatório 3](https://github.com/VituuSaborito/Lotus) |
 | 4 | 26/11 | ⌚ Em andamento | [Relatório 4](https://github.com/VituuSaborito/Lotus) |
 
