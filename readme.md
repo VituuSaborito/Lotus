@@ -56,6 +56,8 @@ Para esta entrega, foi utilizado os mesmos métodos da entrega anterior
     <summary>Clique aqui para ver detalhes sobre o desenvolvimento desta funcionalidade</summary>
     <br>
     Essa funcionalidade foi iniciada e finalizada nesta Sprint. Ela visa fazer o usuário escolher para uma das três escolhas: Inserção de arquivos, Perguntar ao assistente e visualizar o banco de dados.
+    <img src="tela_menu.gif" alt="GIF da tela de menu">
+    
 </details>
 
 → [Voltar ao topo](#topo)
