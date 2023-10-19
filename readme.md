@@ -65,11 +65,9 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 | 1 | 24/09 | ✔️ Concluída | [Relatório 1](https://github.com/VituuSaborito/Lotus/tree/Sprint-1) |
 | 2 | 15/10 | ✔️ Concluída | [Relatório 2](https://github.com/VituuSaborito/Lotus/tree/Sprint-2) |
 | 3 | 05/11 | ⌚ Em andamento | [Relatório 3](https://github.com/VituuSaborito/Lotus) |
-| 4 | 26/11 | ⌚ Em andamento | [Relatório 4](https://github.com/VituuSaborito/Lotus) |
+| 4 | 26/11 | ⭕ Não iniciada | [Relatório 4](https://github.com/VituuSaborito/Lotus) |
 
 ---
-
-→ [Voltar ao topo](#topo)
 
 <span id="equipe">
 
@@ -81,4 +79,5 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 |João Vitor Nogueira Silva|Dev Team|[![GitHub Badge](https://img.shields.io/badge/JoViHamets-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/JoViHamets)|[![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://br.linkedin.com/in/joão-vitor-bab504279/)|
 |Sandro Roberto Pimentel Junior|Dev team|[![GitHub Badge](https://img.shields.io/badge/Sandro--Pimentel-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/Sandro-Pimentel)|[![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://br.linkedin.com/in/sandro-roberto-pimentel-junior-1287a3254)|
 |Kalil Alves Pereira|Dev Team|[![GitHub Badge](https://img.shields.io/badge/kalil004-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/kalil004)|[![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/kalil-alves-381633270/)|
-|Lucas Braga Teixeira|Dev Team|[![GitHub Badge](https://img.shields.io/badge/lucasteixeirabraga-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/lucasteixeirabraga)|[![Linkedin Badge](https://img.shields.io/badge/Linkedin-blue?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-braga-teixeira-64b37b216)|
+
+→ [Voltar ao topo](#topo)
