@@ -42,8 +42,8 @@ O resultado final do produto que a equipe Lotus tem em mente será um chatbot em
 |45|2|Interface gráfica para Registro de usuário|Eu, como cliente, desejo ter uma interface agradável e de fácil utilização ao me registrar.|
 |40|2|Interface gráfica para Consulta no banco de dados|Eu, como cliente, desejo ter uma interface agradável e de fácil utilização para consultar dados no banco de dados.|
 |35|3|Manutenção do ChatBot|Eu, como cliente, desejo que o ChatBot leia documentos com a extensão .pdf e .docx|
-|30|3|Integração com BOT existente no Telegram|Eu, como cliente, desejo ter o ChatBot no Telegram|
-|25|3|Melhoria gráfica nas telas existentes|Eu, como cliente, desejo visualizar as telas de maneira mais confortável|
+|30|3|Melhoria gráfica nas telas existentes|Eu, como cliente, desejo visualizar as telas de maneira mais confortável|
+|25|4|Integração com BOT existente no Telegram|Eu, como cliente, desejo ter o ChatBot no Telegram|
 |20|4|TTS (Text-To-Speech)|Eu, como usuário, desejo ativar uma opção que me permite ouvir o ChatBot|
 
 </div>
@@ -55,6 +55,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Eclipse](https://img.shields.io/badge/Eclipse-FE7A16.svg?style=for-the-badge&logo=Eclipse&logoColor=white)
+
 
 ---
 
