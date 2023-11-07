@@ -34,6 +34,7 @@ Para esta entrega, foi utilizado os mesmos métodos da entrega anterior
     <summary>Clique aqui para ver detalhes sobre o desenvolvimento desta funcionalidade</summary>
     <br>
     Essa funcionalidade foi iniciada e finalizada nesta Sprint. Ela visa registrar os usuários no banco de dados para os mesmos entarem no programa com o login no próximo uso. Ela pede o Nome, Email, Senha e a Confirmação da Senha.
+    <br>
     <img src="tela_registro.gif" alt="GIF da tela de registro">
     
 </details>
