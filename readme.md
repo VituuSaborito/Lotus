@@ -31,6 +31,43 @@ Para esta entrega, foram utilizados os mesmos métodos das entregas anteriores.
     <summary>Clique aqui para ver detalhes sobre o desenvolvimento desta funcionalidade</summary>
     <br>
     Essa funcionalidade foi iniciada e finalizada nesta sprint. Ela visa apenas em fazer uma melhora gráfica em todas as telas, sendo elas: Tela de Registro, Login, Menu, Banco de Dados, Arquivo e Perguntas e Respostas.
+    <img>
 </details>
+
+---
+
+### Tratamento de dados de .PDF
+<details>
+    <summary>Clique aqui para ver detalhes sobre o desenvolvimento desta funcionalidade</summary>
+    Essa funcionalidade foi iniciada e finalizada nesta sprint. Ela visa tratar os dados de arquivos .PDF para o Assistente ter uma leitura sem erros.
+    <img>
+</details>
+
+---
+
+### Adição do nome de usuário na tela de Banco de Dados
+<details>
+    <summary>Clique aqui para ver detalhes sobre o desenvolvimento desta funcionalidade</summary>
+    Essa funcionalidade foi iniciada e finalizada nesta sprint. Ela insere o nome do usuário no banco de dados que inseriru algum arquivo.
+    <img>
+</details>
+
+→ [Voltar ao topo](#topo)
+
+<span id="metricas">
+
+## 📈 Métricas da equipe
+As tarefas da equipe foram dividas entre Backend, Frontend e Database entre os integrantes. Nas tarefas de Backend estava a parte de separar a parte de funcionalidade da tela em arquivos na pasta backend. Já na parte de Frontend estava a melhora gráfica das telas existentes. E na parte de Database teve a implementação do nome de usuário ao inserir arquivos.
+- O acompanhamento de atividades, de responsabilidade do Scrum Master, se encontra na imagem adiante, que contém o gráfico Burndown gerado pela equipe, incluindo as atividades desenvolvidas e seus responsáveis.
+
+<div align="center">
+    <img>
+</div>
+
+<details>
+    <summary>Clique aqui para ver as tarefas realizadas na sprint</summary>
+    <img>
+</details>
+
 
 → [Voltar ao topo](#topo)
