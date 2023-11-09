@@ -39,6 +39,7 @@ Para esta entrega, foram utilizados os mesmos métodos das entregas anteriores.
 <details>
     <summary>Clique aqui para ver detalhes sobre o desenvolvimento desta funcionalidade</summary>
     Essa funcionalidade foi iniciada e finalizada nesta sprint. Ela insere o nome do usuário no banco de dados que inseriru algum arquivo.
+    <br>
     <img src="usuario.png">
 </details>
 
