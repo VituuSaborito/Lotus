@@ -8,7 +8,7 @@
     <a href="#metricas">Métricas do time</a>
 </p>
 
-Nesta terceira sprint, a equipe voltou a sua produção principalmente na melhora das telas existentes, além de separar as funcionalidades das telas em arquivos na pasta Backend. O Assistente agora trata os dados de arquivos de extensão .PDF e .TXT e também adicionou qual usuário que introduziu um arquivo ao Assistente no Banco de Dados.
+Nesta terceira sprint, a equipe voltou a sua produção principalmente na melhora das telas existentes, além de separar as funcionalidades das telas em arquivos na pasta Backend. O Assistente agora trata os dados de arquivos de extensão .TXT e também adicionou qual usuário que introduziu um arquivo ao Assistente no Banco de Dados.
 
 
 <span id="objetivos">
@@ -17,7 +17,6 @@ Nesta terceira sprint, a equipe voltou a sua produção principalmente na melhor
 
 Os objetivos da sprint foram:
 - **Melhora gráfica das telas existentes:** Uma pequena melhora gráfica em todas as telas existentes no projeto.
-- **Tratamento de dados de .PDF:** Agora, os arquivos inseridos em formatos .PDF são tratados.
 - **Adição do nome de usuário na tela de Banco de Dados:** Agora, quando um arquivo é inserido no programa, o nome do usuário será computado no banco de dados.
 
 <span id="entregas">
@@ -31,15 +30,6 @@ Para esta entrega, foram utilizados os mesmos métodos das entregas anteriores.
     <summary>Clique aqui para ver detalhes sobre o desenvolvimento desta funcionalidade</summary>
     <br>
     Essa funcionalidade foi iniciada e finalizada nesta sprint. Ela visa apenas em fazer uma melhora gráfica em todas as telas, sendo elas: Tela de Registro, Login, Menu, Banco de Dados, Arquivo e Perguntas e Respostas.
-    <img>
-</details>
-
----
-
-### Tratamento de dados de .PDF
-<details>
-    <summary>Clique aqui para ver detalhes sobre o desenvolvimento desta funcionalidade</summary>
-    Essa funcionalidade foi iniciada e finalizada nesta sprint. Ela visa tratar os dados de arquivos .PDF para o Assistente ter uma leitura sem erros.
     <img>
 </details>
 
