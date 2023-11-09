@@ -30,7 +30,7 @@ Para esta entrega, foram utilizados os mesmos métodos das entregas anteriores.
     <summary>Clique aqui para ver detalhes sobre o desenvolvimento desta funcionalidade</summary>
     <br>
     Essa funcionalidade foi iniciada e finalizada nesta sprint. Ela visa apenas em fazer uma melhora gráfica em todas as telas, sendo elas: Tela de Registro, Login, Menu, Banco de Dados, Arquivo e Perguntas e Respostas.
-    <img>
+    <img src="telaBonita.gif">
 </details>
 
 ---
@@ -39,7 +39,7 @@ Para esta entrega, foram utilizados os mesmos métodos das entregas anteriores.
 <details>
     <summary>Clique aqui para ver detalhes sobre o desenvolvimento desta funcionalidade</summary>
     Essa funcionalidade foi iniciada e finalizada nesta sprint. Ela insere o nome do usuário no banco de dados que inseriru algum arquivo.
-    <img>
+    <img src="usuario.png">
 </details>
 
 → [Voltar ao topo](#topo)
@@ -51,12 +51,12 @@ As tarefas da equipe foram dividas entre Backend, Frontend e Database entre os i
 - O acompanhamento de atividades, de responsabilidade do Scrum Master, se encontra na imagem adiante, que contém o gráfico Burndown gerado pela equipe, incluindo as atividades desenvolvidas e seus responsáveis.
 
 <div align="center">
-    <img>
+    <img src="burndown-sprint3.png">
 </div>
 
 <details>
     <summary>Clique aqui para ver as tarefas realizadas na sprint</summary>
-    <img>
+    <img src="tarefas-sprint3.png">
 </details>
 
 
