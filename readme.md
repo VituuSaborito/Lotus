@@ -65,7 +65,7 @@ As seguintes ferramentas, linguagens, bibliotecas e tecnologias foram usadas na 
 | 1 | 24/09 | ✔️ Concluída | [Relatório 1](https://github.com/VituuSaborito/Lotus/tree/Sprint-1) |
 | 2 | 15/10 | ✔️ Concluída | [Relatório 2](https://github.com/VituuSaborito/Lotus/tree/Sprint-2) |
 | 3 | 05/11 | ✔️ Concluída | [Relatório 3](https://github.com/VituuSaborito/Lotus/tree/Sprint-3) |
-| 4 | 26/11 | ⌚ Em andamento | [Relatório 4](https://github.com/VituuSaborito/Lotus) |
+| 4 | 26/11 | ✔️ Concluída | [Relatório 4](https://github.com/VituuSaborito/Lotus/tree/Sprint-4) |
 
 ---
 
