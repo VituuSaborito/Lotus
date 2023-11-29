@@ -8,7 +8,7 @@
     <a href="#metricas">Métricas do time</a>
 </p>
 
-Nesta quarta e última sprint, a equipe /////// sua produção final para a manutenção final do ChatBot e a funcionalidade de se logar apenas com seu E-mail ou seu nome cadastrado, além de definir o tema como "???" e uma revisão geral do produto final.
+Nesta quarta e última sprint, a equipe voltou sua produção final para a manutenção final do ChatBot e a funcionalidade de se logar apenas com seu E-mail ou seu nome cadastrado, além de definir o tema como Paleontologia e uma revisão geral do produto final.
 
 
 <span id="objetivos">
