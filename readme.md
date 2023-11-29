@@ -30,7 +30,7 @@ Para esta entrega, foram utilizados os mesmos métodos das entregas anteriores.
     <summary>Clique aqui para ver detalhes sobre o desenvolvimento desta funcionalidade</summary>
     <br>
     Essa funcionalidade foi iniciada e finalizada nesta sprint. Ela visa a possibilidade se logar apenas com o E-mail ou senha cadastrados anteriormente.
-    <img src="login.png">
+    <img src="att.gif">
 </details>
 
 → [Voltar ao topo](#topo)
