@@ -13,7 +13,7 @@
 ## 📄 Sobre o projeto 
 Este projeto é um projeto acadêmico, que tem como objetivo criar um chat-bot que responda questões com embasamento em um arquivo pré disponibilizado, utilizando a linguagem java. 
 
-> _💻 Status do projeto: Em desenvolvimento._
+> _💻 Status do projeto: Finalizado._
 
 ## 📌 Visão do produto
 O resultado final do produto que a equipe Lotus tem em mente será um chatbot em Java Desktop que seja capaz de sanar dúvidas, de qualquer área com a inserção de documentos, agilizando a busca de informações em documentos extensos e auxiliando nas atividades de uma empresa.
